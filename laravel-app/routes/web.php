@@ -28,5 +28,6 @@ Route::prefix('dashboard')->group(function () {
         Route::get('/add', fn() => view('admin.ecommerce.orders.add-order'));
         Route::get('/{id}/details', fn($id) => view('admin.ecommerce.orders.details', compact('id')));
     });
+    
 
 });

@@ -400,7 +400,7 @@
                                 </td>
                                 <td>20 Apr, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-1.jpg" alt="" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-1.jpg') }}" alt="" class="avatar-xs rounded-circle me-1" />
                                     <a href="javascript: void(0);" class="text-body fw-medium">Alexa Newsome</a>
                                 </td>
                                 <td>
@@ -434,7 +434,7 @@
                                 </td>
                                 <td>31 Dec, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-2.jpg" alt="" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-2.jpg') }}" alt="" class="avatar-xs rounded-circle me-1" />
                                     <a href="javascript: void(0);" class="text-body fw-medium">David Lee</a>
                                 </td>
                                 <td>
@@ -468,7 +468,7 @@
                                 </td>
                                 <td>05 Jun, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-5.jpg" alt="" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-5.jpg') }}" alt="" class="avatar-xs rounded-circle me-1" />
                                     <a href="javascript: void(0);" class="text-body fw-medium">Peter Hein</a>
                                 </td>
                                 <td>
@@ -502,7 +502,7 @@
                                 </td>
                                 <td>25 Aug, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-7.jpg" alt="" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-7.jpg') }}" alt="" class="avatar-xs rounded-circle me-1" />
                                     <a href="javascript: void(0);" class="text-body fw-medium">Gladys Rivas</a>
                                 </td>
                                 <td>
@@ -536,7 +536,7 @@
                                 </td>
                                 <td>30 Sep, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-10.jpg" alt="" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-10.jpg') }}" alt="" class="avatar-xs rounded-circle me-1" />
                                     <a href="javascript: void(0);" class="text-body fw-medium">Joan Wisdom</a>
                                 </td>
                                 <td>
@@ -568,7 +568,7 @@
                                 </td>
                                 <td>12 Jan, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-3.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-3.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Chris Nolan</a>
                                 </td>
                                 <td>
@@ -600,7 +600,7 @@
                                 </td>
                                 <td>08 Mar, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-4.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-4.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Karen Miles</a>
                                 </td>
                                 <td>
@@ -632,7 +632,7 @@
                                 </td>
                                 <td>15 Jul, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-6.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-6.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Oscar Brent</a>
                                 </td>
                                 <td>
@@ -664,7 +664,7 @@
                                 </td>
                                 <td>21 Feb, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-8.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-8.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Maria Jensen</a>
                                 </td>
                                 <td>
@@ -696,7 +696,7 @@
                                 </td>
                                 <td>10 Oct, 2024</td>
                                 <td>
-                                    <img src="assets/images/users/user-9.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-9.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Daniel Cook</a>
                                 </td>
                                 <td>
@@ -728,7 +728,7 @@
                                 </td>
                                 <td>28 May, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-5.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-5.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Emily Grace</a>
                                 </td>
                                 <td>
@@ -760,7 +760,7 @@
                                 </td>
                                 <td>02 Feb, 2025</td>
                                 <td>
-                                    <img src="assets/images/users/user-7.jpg" class="avatar-xs rounded-circle me-1" />
+                                    <img src="{{ asset('assets/images/users/user-7.jpg') }}" class="avatar-xs rounded-circle me-1" />
                                     <a href="#" class="text-body fw-medium">Nathan Cole</a>
                                 </td>
                                 <td>
@@ -934,19 +934,19 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><img src="assets/images/flags/us.svg" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">United States</span></td>
+                                        <td><img src="{{ asset('assets/images/flags/us.svg') }}" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">United States</span></td>
                                         <td>196,584</td>
                                         <td>187,232</td>
                                         <td>48.63%</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="assets/images/flags/in.svg" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">India</span></td>
+                                        <td><img src="{{ asset('assets/images/flags/in.svg') }}" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">India</span></td>
                                         <td>145,845</td>
                                         <td>126,874</td>
                                         <td>36.08%</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="assets/images/flags/au.svg" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">Australia</span></td>
+                                        <td><img src="{{ asset('assets/images/flags/au.svg') }}" alt="user-image" class="me-1 rounded-circle" height="18" /> <span class="align-middle">Australia</span></td>
                                         <td>95,845</td>
                                         <td>90,127</td>
                                         <td>23.41%</td>

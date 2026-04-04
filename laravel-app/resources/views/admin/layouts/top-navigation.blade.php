@@ -6,20 +6,20 @@
                 <!-- Logo light -->
                 <a href="index.html" class="logo-light">
                     <span class="logo-lg">
-                        <img src="assets/images/logo.png" alt="logo" />
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="logo" />
                     </span>
                     <span class="logo-sm">
-                        <img src="assets/images/logo-sm.png" alt="small logo" />
+                        <img src="{{ asset('assets/images/logo-sm.png') }}" alt="small logo" />
                     </span>
                 </a>
 
                 <!-- Logo Dark -->
                 <a href="index.html" class="logo-dark">
                     <span class="logo-lg">
-                        <img src="assets/images/logo-black.png" alt="dark logo" />
+                        <img src="{{ asset('assets/images/logo-black.png') }}" alt="dark logo" />
                     </span>
                     <span class="logo-sm">
-                        <img src="assets/images/logo-sm.png" alt="small logo" />
+                        <img src="{{ asset('assets/images/logo-sm.png') }}" alt="small logo" />
                     </span>
                 </a>
             </div>
@@ -438,7 +438,7 @@
                                     class="dropdown-item border border-dashed rounded text-center py-2">
                                     <span class="avatar-sm d-block mx-auto mb-1">
                                         <span class="avatar-title text-bg-light rounded-circle">
-                                            <img src="assets/images/logos/google.svg" alt="Google Logo"
+                                            <img src="{{ asset('assets/images/logos/google.svg') }}" alt="Google Logo"
                                                 height="18" />
                                         </span>
                                     </span>
@@ -451,7 +451,7 @@
                                     class="dropdown-item border border-dashed rounded text-center py-2">
                                     <span class="avatar-sm d-block mx-auto mb-1">
                                         <span class="avatar-title text-bg-light rounded-circle">
-                                            <img src="assets/images/logos/figma.svg" alt="Figma Logo"
+                                            <img src="{{ asset('assets/images/logos/figma.svg') }}" alt="Figma Logo"
                                                 height="18" />
                                         </span>
                                     </span>
@@ -464,7 +464,7 @@
                                     class="dropdown-item border border-dashed rounded text-center py-2">
                                     <span class="avatar-sm d-block mx-auto mb-1">
                                         <span class="avatar-title text-bg-light rounded-circle">
-                                            <img src="assets/images/logos/slack.svg" alt="Slack Logo"
+                                            <img src="{{ asset('assets/images/logos/figma.svg') }}" alt="Figma Logo"
                                                 height="18" />
                                         </span>
                                     </span>
@@ -477,7 +477,7 @@
                                     class="dropdown-item border border-dashed rounded text-center py-2">
                                     <span class="avatar-sm d-block mx-auto mb-1">
                                         <span class="avatar-title text-bg-light rounded-circle">
-                                            <img src="assets/images/logos/dropbox.svg" alt="Dropbox Logo"
+                                            <img src="{{ asset('assets/images/logos/dropbox.svg') }}" alt="Dropbox Logo"
                                                 height="18" />
                                         </span>
                                     </span>
@@ -571,7 +571,7 @@
                             <div class="dropdown-item notification-item py-2 text-wrap" id="message-1">
                                 <span class="d-flex align-items-center gap-3">
                                     <span class="flex-shrink-0 position-relative">
-                                        <img src="assets/images/users/user-4.jpg" class="avatar-md rounded-circle"
+                                        <img src="{{ asset('assets/images/users/user-4.jpg') }}" class="avatar-md rounded-circle"
                                             alt="User Avatar" />
                                         <span class="position-absolute rounded-pill bg-success notification-badge">
                                             <i class="ti ti-bell align-middle"></i>
@@ -597,7 +597,7 @@
                             <div class="dropdown-item notification-item py-2 text-wrap" id="message-2">
                                 <span class="d-flex align-items-center gap-3">
                                     <span class="flex-shrink-0 position-relative">
-                                        <img src="assets/images/users/user-5.jpg" class="avatar-md rounded-circle"
+                                        <img src="{{ asset('assets/images/users/user-5.jpg') }}" class="avatar-md rounded-circle"
                                             alt="User Avatar" />
                                         <span class="position-absolute rounded-pill bg-info notification-badge">
                                             <i class="ti ti-cloud-upload align-middle"></i>
@@ -650,7 +650,7 @@
                             <div class="dropdown-item notification-item py-2 text-wrap" id="message-3">
                                 <span class="d-flex align-items-center gap-3">
                                     <span class="flex-shrink-0 position-relative">
-                                        <img src="assets/images/users/user-6.jpg" class="avatar-md rounded-circle"
+                                        <img src="{{ asset('assets/images/users/user-6.jpg') }}" class="avatar-md rounded-circle"
                                             alt="User Avatar" />
                                         <span class="position-absolute rounded-pill bg-warning notification-badge">
                                             <i class="ti ti-alert-triangle align-middle"></i>
@@ -676,7 +676,7 @@
                             <div class="dropdown-item notification-item py-2 text-wrap" id="message-4">
                                 <span class="d-flex align-items-center gap-3">
                                     <span class="flex-shrink-0 position-relative">
-                                        <img src="assets/images/users/user-7.jpg" class="avatar-md rounded-circle"
+                                        <img src="{{ asset('assets/images/users/user-7.jpg') }}" class="avatar-md rounded-circle"
                                             alt="User Avatar" />
                                         <span class="position-absolute rounded-pill bg-primary notification-badge">
                                             <i class="ti ti-calendar-event align-middle"></i>
@@ -702,7 +702,7 @@
                             <div class="dropdown-item notification-item py-2 text-wrap" id="message-5">
                                 <span class="d-flex align-items-center gap-3">
                                     <span class="flex-shrink-0 position-relative">
-                                        <img src="assets/images/users/user-8.jpg" class="avatar-md rounded-circle"
+                                        <img src="{{ asset('assets/images/users/user-8.jpg') }}" class="avatar-md rounded-circle"
                                             alt="User Avatar" />
                                         <span class="position-absolute rounded-pill bg-secondary notification-badge">
                                             <i class="ti ti-edit align-middle"></i>
@@ -786,50 +786,50 @@
                 <div class="dropdown">
                     <button class="topbar-link fw-bold" data-bs-toggle="dropdown" type="button"
                         aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/flags/us.svg" alt="user-image" class="rounded-circle me-2"
+                        <img src="{{ asset('assets/images/flags/us.svg') }}" alt="user-image" class="rounded-circle me-2"
                             height="18" id="selected-language-image" />
                         <span id="selected-language-code">EN</span>
                     </button>
                     <div class="dropdown-menu dropdown-menu-end">
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="en"
                             title="English">
-                            <img src="assets/images/flags/us.svg" alt="English" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/us.svg') }}" alt="English" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">English</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="de"
                             title="German">
-                            <img src="assets/images/flags/de.svg" alt="German" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/de.svg') }}" alt="German" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">Deutsch</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="it"
                             title="Italian">
-                            <img src="assets/images/flags/it.svg" alt="Italian" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/it.svg') }}" alt="Italian" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">Italiano</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="es"
                             title="Spanish">
-                            <img src="assets/images/flags/es.svg" alt="Spanish" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/es.svg') }}" alt="Spanish" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">Español</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="ru"
                             title="Russian">
-                            <img src="assets/images/flags/ru.svg" alt="Russian" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/ru.svg') }}" alt="Russian" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">Русский</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="hi"
                             title="Hindi">
-                            <img src="assets/images/flags/in.svg" alt="Hindi" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/in.svg') }}" alt="Hindi" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">हिन्दी</span>
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item" data-translator-lang="ar"
                             title="Arabic">
-                            <img src="assets/images/flags/sa.svg" alt="Arabic" class="me-1 rounded-circle"
+                            <img src="{{ asset('assets/images/flags/sa.svg') }}" alt="Arabic" class="me-1 rounded-circle"
                                 height="18" data-translator-image="" />
                             <span class="align-middle">عربي</span>
                         </a>
@@ -843,7 +843,7 @@
                 <div class="dropdown">
                     <a class="topbar-link dropdown-toggle drop-arrow-none px-2" data-bs-toggle="dropdown"
                         href="#!" aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/users/user-1.jpg" width="32"
+                        <img src="{{ asset('assets/images/users/user-1.jpg') }}" width="32"
                             class="rounded-circle me-lg-2 d-flex" alt="user-image" />
                         <div class="d-lg-flex align-items-center gap-1 d-none">
                             <span>

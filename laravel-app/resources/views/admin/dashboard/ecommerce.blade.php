@@ -518,7 +518,7 @@
                                 <div class="p-3">
                                     <!-- Country Data -->
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-1"><img src="assets/images/flags/us.svg" alt="user-image"
+                                        <p class="mb-1"><img src="{{ asset('assets/images/flags/us.svg') }}" alt="user-image"
                                                 class="me-1 rounded-circle" height="20" /> <span
                                                 class="align-middle">United States</span></p>
                                         <div>
@@ -540,7 +540,7 @@
 
                                     <!-- Country Data -->
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-1"><img src="assets/images/flags/in.svg" alt="user-image"
+                                        <p class="mb-1"><img src="{{ asset('assets/images/flags/in.svg') }}" alt="user-image"
                                                 class="me-1 rounded-circle" height="20" /> <span
                                                 class="align-middle">India</span></p>
                                         <div>
@@ -562,7 +562,7 @@
 
                                     <!-- Country Data -->
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-1"><img src="assets/images/flags/br.svg" alt="user-image"
+                                        <p class="mb-1"><img src="{{ asset('assets/images/flags/br.svg') }}" alt="user-image"
                                                 class="me-1 rounded-circle" height="20" /> <span
                                                 class="align-middle">Brazil</span></p>
                                         <div>
@@ -584,7 +584,7 @@
 
                                     <!-- Country Data -->
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-1"><img src="assets/images/flags/ca.svg" alt="user-image"
+                                        <p class="mb-1"><img src="{{ asset('assets/images/flags/ca.svg') }}" alt="user-image"
                                                 class="me-1 rounded-circle" height="20" /> <span
                                                 class="align-middle">Canada</span></p>
                                         <div>
@@ -657,7 +657,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/google.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/google.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">Google</span>
                                         </div>
@@ -668,7 +668,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/instagram.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/instagram.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">Instagram</span>
                                         </div>
@@ -680,7 +680,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/linkedin.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/linkedin.svg') }}" alt="user-image" class="me-1"
                                                 height="20" />
                                             <span class="align-middle fw-semibold fs-md">LinkedIn</span>
                                         </div>
@@ -692,7 +692,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/dribbble.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/dribbble.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">Dribbble</span>
                                         </div>
@@ -704,7 +704,7 @@
                                 <div class="custom-progress">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/messenger.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/messenger.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">Messenger</span>
                                         </div>
@@ -717,7 +717,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/meta.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/meta.svg') }}" alt="user-image" class="me-1"
                                                 height="18" />
                                             <span class="align-middle fw-semibold fs-md">Meta</span>
                                         </div>
@@ -728,7 +728,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/telegram.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/telegram.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">Telegram</span>
                                         </div>
@@ -740,7 +740,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/x.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/x.svg') }}" alt="user-image" class="me-1"
                                                 height="16" />
                                             <span class="align-middle fw-semibold fs-md">Twitter X</span>
                                         </div>
@@ -752,7 +752,7 @@
                                 <div class="custom-progress mb-3">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/whatsapp.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/whatsapp.svg') }}" alt="user-image" class="me-1"
                                                 height="24" />
                                             <span class="align-middle fw-semibold fs-md">WhatsApp</span>
                                         </div>
@@ -764,7 +764,7 @@
                                 <div class="custom-progress">
                                     <div class="progress-info d-flex justify-content-between align-items-center">
                                         <div>
-                                            <img src="assets/images/logos/snapchat.svg" alt="user-image" class="me-1"
+                                            <img src="{{ asset('assets/images/logos/snapchat.svg') }}" alt="user-image" class="me-1"
                                                 height="28" />
                                             <span class="align-middle fw-semibold fs-md">Snapchat</span>
                                         </div>
@@ -818,7 +818,7 @@
                         <div class="px-2" data-simplebar style="height: 364px">
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/chrome.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/chrome.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Chrome</span>
                                 </div>
@@ -829,7 +829,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/firefox.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/firefox.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Firefox</span>
                                 </div>
@@ -840,7 +840,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/safari.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/safari.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Safari</span>
                                 </div>
@@ -851,7 +851,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/brave.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/brave.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Brave</span>
                                 </div>
@@ -862,7 +862,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/opera.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/opera.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Opera</span>
                                 </div>
@@ -873,7 +873,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/tor.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/tor.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Tor</span>
                                 </div>
@@ -884,7 +884,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/edge.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/edge.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Edge</span>
                                 </div>
@@ -895,7 +895,7 @@
 
                             <div class="d-flex justify-content-between align-items-center p-2">
                                 <div>
-                                    <img src="assets/images/browsers/globe.svg" alt="user-image" class="me-1"
+                                    <img src="{{ asset('assets/images/browsers/globe.svg') }}" alt="user-image" class="me-1"
                                         height="26" />
                                     <span class="align-middle fw-semibold fs-md">Other</span>
                                 </div>

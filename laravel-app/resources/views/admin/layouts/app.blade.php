@@ -20,7 +20,6 @@
 
     <!-- Theme Config Js -->
     <script src="{{ asset('assets/js/config.js') }}"></script>
-    <script src="{{ asset('demo.js') }}"></script>
 
     <!-- Vendor css -->
     <link href="{{ asset('assets/css/vendors.min.css') }}" rel="stylesheet" type="text/css" />
